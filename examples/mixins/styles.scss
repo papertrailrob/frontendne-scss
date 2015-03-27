@@ -1,0 +1,36 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+nav {
+  background-color: #ffe4b9;
+
+  ul {
+    list-style: none;
+
+    li {
+      float: left;
+      width: 80px;
+
+      a {
+        text-decoration: none;
+        @include border-radius(5px);
+
+        &:hover {
+          border-bottom: 1px dotted red;
+        }
+      }
+    }
+  }
+}
+
+section {
+  border: 1px solid #999;
+
+  &.main {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,7 @@
+
+.vagrant/*
+.sass-cache
+*.map
+*.sublime-workspace
+
+*.sublime-project

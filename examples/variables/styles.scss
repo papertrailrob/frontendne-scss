@@ -1,0 +1,34 @@
+
+$background-color: #ffe4b9;
+$section-padding: 20px;
+
+nav {
+  background-color: $background-color;
+
+  ul {
+    list-style: none;
+
+    li {
+      float: left;
+      width: 80px;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          border-bottom: 1px dotted red;
+        }
+      }
+    }
+  }
+}
+
+section {
+  background-color: lighten($background-color, 5%);
+  border: 1px solid #999;
+  padding: $section-padding;
+
+  &.main {
+    padding: $section-padding * 1.5;
+  }
+}
