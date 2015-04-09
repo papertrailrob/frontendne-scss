@@ -1,4 +1,6 @@
 # frontendne-scss
 Example code from the Frontend NE SCSS talk on the 2nd April 2015
 
-Link to video and slides coming soon.
+See the associated slides at http://www.slideshare.net/frontendne/css-toscss
+
+Link to video  coming soon.
